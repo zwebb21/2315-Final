@@ -1,33 +1,41 @@
 body {
   background-image: url('imed.png');
-  background-color: tan;
+  background-color:#d4b6a2;
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 	background-position: center center;
 	background-size: cover;
+  font-size: 12px;
 	/*background-size: cover is what got the image to stay within place. */
 }
+.caption {background-color:#ecd3bd;
+
+
+}
+
+
+
 .container-fluid {
-	background-color:#ccc;
+	background-color:#ecd3bd;
 	width: 80%;
 }
 .col-sm-4 {
-	background-color: #ddd;
+	background-color: #e3c2aa;
 	border: 1px solid #000;
 }
 .col-sm-8 {
-	background-color: #ddd;
+	background-color: #e3c2aa;
 	border: 1px solid #000;
 }
 .col-lg-12 {
-	background-color: #ccc;
+	background-color: #e3c2aa;
 	border: 1px solid #000;
 }
 .tab-content{
 	width: 200px;
 }
 .col-lg-4 {
-	background-color: #ddd;
+	background-color: #e3c2aa;
 	border: 1px solid #000;
 }
 .col-lg-4 img {
@@ -43,7 +51,7 @@ font-size: 1em;}
 /*--------My media breakpoints start here----------*/
 @media(min-width:575px) {
 	.container-fluid p {
-		font-size:24px;
+		font-size:18px;
 	}
 	body {
 		background-image: url("imed.png");
@@ -56,7 +64,7 @@ font-size: 1em;}
 }
 @media(min-width:768px) and (max-height:1500px) {
 	.container-fluid p {
-		font-size:24px;
+		font-size:15px;
 	}
 	body {
 		background-image: url("desert2.jpg");
@@ -68,7 +76,7 @@ font-size: 1em;}
 		color:green;
 	}
 	a.navbar-brand {
-		color:#000;
+		color:#black;
 		font-weight: bold;
 	}
 	.container p {
