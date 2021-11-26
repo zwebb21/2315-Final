@@ -44,7 +44,7 @@ body {
 	border: 1px solid #000;
 }
 
-.img-lg img{ width:300px;}
+.img-lg img{ width:100px;}
 .img-thumbnail img{width:75%;}
 .img-thumbnail .caption p{width:100% ; font-family: times;
 font-size: 1em;}
