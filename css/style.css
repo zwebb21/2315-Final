@@ -143,6 +143,67 @@ padding-top: 10px;
 padding-left: 15px;
 padding-right: 10px;
 }
+
+ .fw-light{
+  background-color:#7A7A7A;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+
+ }
+
+.card-text {
+    background-color:#BABABA;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+
+}
+
+/*                    added Decmember 4th                         */
+.list-group-item{
+    background-color:transparent;
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.card{
+background-color: black;
+color: white;
+
+
+}
+
+.title2{
+  text-align: center;
+
+
+}
+
+
+.intro2{
+  text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------  added Decmember 4th                          */
+
 /*--------My media breakpoints start here----------*/
 @media(min-width:575px) {
 	.container-fluid p {
