@@ -5,49 +5,143 @@ body {
 	background-attachment:fixed;
 	background-position: center center;
 	background-size: cover;
-  font-size: 12px;
+
 	/*background-size: cover is what got the image to stay within place. */
 }
-.caption {background-color:#ecd3bd;
+.display-2{
+  font-weight: bolder;
 
+  text-align: center;
+  font-style: italic;
+  color: black;
 
+  border-radius: 40px;
 }
 
 
+.sub {
+      text-align: center;
+
+}
+
+.img-thumbnail-2
+      {padding-left: 500px;
+        padding-right: 500px;
+        padding-top: 40px;
+}
+
+.display-6 {
+background-color:#d4b6a2;
+text-align: center;
+border-radius: 15px;
+padding-top: 2px;
+}
+
+.img-thumbnail-fluid {
+
+
+
+}
+a  {
+          font-size: 20px;
+          color: black;
+}
+
+
+.col-md-4 {
+	background-color:#f5e4d0;
+
+
+}
 
 .container-fluid {
-	background-color:#ecd3bd;
-	width: 80%;
+	background-color:#f5e4d0;
+	width: 98%;
 }
+
 .col-sm-4 {
-	background-color: #e3c2aa;
-	border: 1px solid #000;
+  	background-color: #e3c2aa;
+/*	border: 1px solid #000;*/
+padding-top: 20px;  /* this gives the rounded border around the footer heading -space from the row above.*/
+border: 2px solid #f5e4d0;
+border-radius: 5px;
 }
+
+
+
+.card-group{
+padding-bottom: 10px;
+
+
+}
+
+
+
+
 .col-sm-8 {
 	background-color: #e3c2aa;
-	border: 1px solid #000;
+/*	border: 1px solid #000;*/
 }
+
+ .col-xl-12 img{
+
+   text-align:center;
+  background-color:#d4b6a2;
+
+
+ }
+
+.col-xl-12 {
+	background-color:#f5e4d0;
+
+
+
+}
+
+
 .col-lg-12 {
-	background-color: #e3c2aa;
-	border: 1px solid #000;
+	background-color: #c4a99a;
+/*  border: 1px solid #000; */
 }
+
+
+
 .tab-content{
 	width: 200px;
 }
+
+
 .col-lg-4 {
-	background-color: #e3c2aa;
-	border: 1px solid #000;
-}
-.col-lg-4 img {
-	width:200px;
-	height:250px;
+	background-color: #f5e4d0;
 	border: 1px solid #000;
 }
 
-.img-lg img{ width:100px;}
+
+
+.col-lg-4 img {
+	width:80px;
+	height:250px;
+	border: 1px solid #000;
+}
+.img-thumbnail{background-color: transparent;/*The transparent attribute was the only way i could get the images to show up transparent */
+              border: none;/*This is how i got rid of border */
+
+  }
+
+.img-lg img{ width:80px;}
+
 .img-thumbnail img{width:75%;}
-.img-thumbnail .caption p{width:100% ; font-family: times;
-font-size: 1em;}
+
+.img-thumbnail .caption p{
+  width:100%;
+  font-family: times;
+font-size: 1.3em;
+background-color:#E3D8C1; /* nice color for captions */
+border-radius: 4px; /* This gives  captions rounded borders  */
+padding-top: 10px;
+padding-left: 15px;
+padding-right: 10px;
+}
 /*--------My media breakpoints start here----------*/
 @media(min-width:575px) {
 	.container-fluid p {
