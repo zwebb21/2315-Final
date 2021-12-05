@@ -8,6 +8,37 @@ body {
 
 	/*background-size: cover is what got the image to stay within place. */
 }
+
+
+
+
+
+.caption-2{
+  background-color:#d4b6a2;
+border-radius: 15px;
+padding-top: 2px;
+padding-left: 15px;
+padding-right: 10px;
+text-align: center;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.tradingview-widget-container{
+
+}
+
+
+.col-md-6{
+
+border-radius: 2px;
+border: 0.08em solid #998375;
+
+}
+
+
+
+
 .display-2{
   font-weight: bolder;
 
@@ -57,7 +88,7 @@ a  {
 
 .container-fluid {
 	background-color:#f5e4d0;
-	width: 50%;
+	width: 90%;
 }
 
 .col-sm-4 {

@@ -60,9 +60,9 @@
 
 $mailto = 'z-webb@sbcglobal.net' ;
 $subject = "Feedback Form" ;
-$formurl = "https://justwannalive.club/assignment8/contact.html" ;
-$thankyouurl = "https://justwannalive.club/assignment8/thankyou.html" ;
-$errorurl = "https://justwannalive.club/assignment8/error.html" ;
+$formurl = "https://justwannalive.club/Final/contact.html" ;
+$thankyouurl = "https://justwannalive.club/Final/thankyou.html" ;
+$errorurl = "https://justwannalive.club/Final/error.html" ;
 $want_tel_field = 0;
 $want_addr_field = 0;
 
